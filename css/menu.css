@@ -1,0 +1,38 @@
+div.menu {
+        width: 960px;
+        position: relative;
+        margin: auto;
+}
+.menu ul {
+        text-align: center;
+        list-style-type:none;
+        margin-top: 20px;
+        width: 100%;
+        margin: auto;
+        font-family: fantasy;
+        font-size: 30px;
+ }
+.menu li {
+        float: left;
+        margin: auto;
+        background-color: black;
+ }
+.menu li a {
+        display: block;
+        width: 250px;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+ }
+.menu li a:hover {
+        color: red;
+ }
+.menu ul li ul {
+        display: none;
+ }
+.menu ul li:hover ul {
+        display: block;
+ }
+.menu li:hover ul li {
+        float: none;
+}
